@@ -1,0 +1,9 @@
+
+:root {
+    --color-naranja: #D95B43; 
+}
+
+
+h1, a {
+     color: var(--color-naranja);
+ }
