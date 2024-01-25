@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-top: 20px;
+}

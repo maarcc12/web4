@@ -1,0 +1,10 @@
+
+
+.limitado {
+    background-color: #ffd700; /* Amarillo dorado */
+    max-height: 10rem;
+    min-height: 5rem;
+    overflow: hidden; /* Oculta el contenido que supera la altura máxima */
+    padding: 10px; /* Añade relleno alrededor del texto */
+    border-radius: 8px; /* Esquinas redondeadas */
+}
