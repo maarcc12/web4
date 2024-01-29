@@ -1,0 +1,4 @@
+.imatge{
+    border: 1rem solid;
+    border-image: linear-gradient(#36bbeb, #d60a0a) 1;
+}
