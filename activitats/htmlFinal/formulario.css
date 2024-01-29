@@ -1,0 +1,25 @@
+.fondo{
+    background-color: rgb(157, 175, 214);
+}
+
+.fondotitol{
+    background-color: rgb(171, 238, 216);
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 150px;
+}
+
+.menu{
+    min-width: 50%;
+    text-align: right;
+    margin-top: 2rem;
+    border: 1px solid black;
+
+}
+
+.lletramenu{
+    font-size: 20px;
+    word-spacing: 1.2rem;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
