@@ -1,0 +1,29 @@
+.fondo{
+    background-color: rgb(72, 177, 142);
+    text-align: center;
+    margin: 6rem 13rem 1rem;
+}
+
+.subrayat{
+    text-decoration: underline;
+}
+
+.titol{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 6rcap;
+    margin: 6rem 13rem 1rem;
+}
+
+.text{
+    margin: 4rem 13rem 1rem;
+}
+
+.boton {
+    border-radius: 25%;
+    text-decoration: underline;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    margin: 2rem 13rem 1rem;
+  }
