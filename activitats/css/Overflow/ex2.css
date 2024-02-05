@@ -1,0 +1,15 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto; /* Permite el desplazamiento horizontal en dispositivos móviles */
+}
+
+th, td {
+    border: 1px solid #0b0b0b;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #39efc8;
+}

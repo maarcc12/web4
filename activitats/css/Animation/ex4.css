@@ -1,0 +1,50 @@
+.rellotge {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+    border: 10px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.agulla-hores,
+.agulla-minuts {
+    position: absolute;
+    background-color: #333;
+    transform-origin: 50% 100%;
+    transform: rotate(0deg);
+    transition: transform 0.5s cubic-bezier(0.4, 2.4, 0.75, 1.35);
+}
+
+.agulla-hores {
+    width: 8px;
+    height: 70px;
+    top: 50px;
+    left: 96px;
+}
+
+.agulla-minuts {
+    width: 4px;
+    height: 90px;
+    top: 30px;
+    left: 98px;
+}
+
+
+
+@keyframes girarAgulles {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rellotge.anima-agulles .agulla-hores,
+.rellotge.anima-agulles .agulla-mintus {
+    animation: girarAgulles 60s linear infinite; 
+}
