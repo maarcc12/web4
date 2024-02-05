@@ -1,0 +1,23 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.arquitectura {
+    margin-bottom: 40px;
+}
+
+.explicacion {
+    height: 10rem;
+    overflow: auto;
+    border: 1px solid #fb4e4e;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: antiquewhite;
+}

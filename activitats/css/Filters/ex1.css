@@ -1,0 +1,9 @@
+img {
+    height: 300px;
+    width: 600px;
+    transition: filter 0.3s;
+  }
+
+  img:hover {
+    filter: grayscale(100%); 
+}
