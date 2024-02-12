@@ -10,13 +10,12 @@ input[type="number"] {
     margin-bottom: 10px;
     border: 2px solid #ccc;
     border-radius: 5px;
-    transition: border 0.3s, transform 0.3s; /* Añade transiciones suaves para el borde y el tamaño */
 }
 
 input[type="text"]:focus,
 input[type="number"]:focus {
-    border: 2px solid transparent; /* Desvanece el borde */
-    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+    border: 2px solid transparent; 
+    transform: scale(1.05); 
 }
 
 input[type="submit"] {
@@ -26,10 +25,10 @@ input[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s; /* Añade transición suave para el color de fondo */
+    transition: background-color 0.3s; 
 }
 
 input[type="submit"]:hover {
-    background-color: transparent; /* Pierde el color de fondo al pasar el cursor sobre el botón */
-    color: #4CAF50; /* Cambia el color del texto */
+    background-color: transparent; 
+    color: #4CAF50; 
 }

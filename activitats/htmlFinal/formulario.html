@@ -3,15 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="estils/formulario.css" media="screen"/>
     <title>Formulari</title>
 </head>
-<body class="fondo">
-    <div class="menu" ><p class="lletramenu">formulari, sobre mi , hola</p></div>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inici</a></li>
+            <li><a href="#">Sobre Mi</a></li>
+            <li><a href="../activitats.html">Activitats</a></li>
+            <li><a href="#">Esbos</a></li>
+            <li><a href="formulario.html">Formulari</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
 
     <h1 class="fondotitol">Formulario</h1>
 
-    <form action="#" method="post">
+    <form class="formulario"action="#" method="post">
 
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required>
@@ -21,13 +31,17 @@
         <input type="email" id="email" name="email" required>
         <br>
 
-        <label for="mensaje">Mensaje:</label>
+        <label for="mensaje">Comentario:</label>
         <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
         <br>
 
-        <button type="submit">Enviar Mensaje</button>
+        <button type="submit">Enviar Comentario</button>
 
     </form>
+
+    <footer>
+        <p>Derechos reservados &copy; 2024</p>
+    </footer>
 
 </body>
 </html>

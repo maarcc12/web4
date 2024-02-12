@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(157, 175, 214);
+}
+
+.fondotitol{
+    background-color: rgb(171, 238, 216);
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 150px;
+
+}
+
+nav {
+    background-color: rgb(148, 178, 243);
+    text-align: right; 
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+
+.formulario label {
+    text-align: left;
+    width: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+    width: 150px;
+    margin-bottom: 15px;
+    background-color: rgb(171, 238, 216);
+
+}
+
+.formulario button {
+    width: 150px;
+    height: 30px;
+    border-radius: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+footer{
+
+    min-width: 50%;
+    text-align: center;
+    margin-top: 10rem;
+    border: 1px solid black;
+    font-size: 20px;
+    word-spacing: 1.2rem;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(148, 178, 243);
+
+  
+}
+
