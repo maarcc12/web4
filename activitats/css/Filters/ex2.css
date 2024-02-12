@@ -1,6 +1,7 @@
 img {
-   width: 50px;
-    transition: filter 0.3s;
+   width: 200px;
+   height: auto;
+   transition: filter 0.3s;
   }
 
   img:hover {

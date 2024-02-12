@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(157, 175, 214);
+}
+
+.fondotitol{
+    background-color: rgb(171, 238, 216);
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 150px;
+
+}
+
+nav {
+    background-color: rgb(148, 178, 243);
+    text-align: right; 
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+p{
+    text-align:center;
+    
+}
